@@ -1,0 +1,26 @@
+{
+  "name": "drinking-chocolate",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/drinking-chocolate.es.js",
+  "exports": {
+    ".": "./dist/drinking-chocolate.es.js"
+  },
+  "types": "types/drinking-chocolate.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "lit": "^2.4.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  }
+}
